@@ -1,0 +1,32 @@
+body {
+    background-color:black;
+    color: rgb(42, 204, 2);
+    font-family:arial, arial, helvetica, sans-serif;
+    background-image: url(assets/vaultboy_wasteland.png);
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(42, 204, 2);
+
+}
+
+.imagens-enclave {
+    height: 200px;
+    width: 350px;
+    border: 2px solid rgb(42, 204, 2);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.imagens-batman:hover {
+    transform: scale(1.1);
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
